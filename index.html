@@ -11,14 +11,21 @@
 
     <div class="container">
       <h1>Refresh Me</h1>
+      <br>
+      <button onClick="rollDice()">🎲 Roll Dice 🎲</button>
+      <br>
+      <button class = "hidden" onClick="location.reload()">🎲 Play Again??? 🎲</button>
+      <br>
 
       <div class="dice">
-        <p>Player 1</p>
+        <p id="player1">Player 1</p>
+        <p id = "player1Points"></p>
         <img class="img1" src="">
       </div>
 
       <div class="dice">
-        <p>Player 2</p>
+        <p id = "player2">Player 2</p>
+        <p id = "player2Points"></p>
         <img class="img2" src="">
       </div>
 

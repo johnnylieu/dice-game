@@ -12,6 +12,12 @@
 
 body {
   background-color: #393E46;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  align-items: center;
 }
 
 h1 {
@@ -38,4 +44,8 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+.hidden {
+  visibility: hidden;
 }
