@@ -12,8 +12,9 @@ var secondPlayerName = () => {
     if (player2.trim() === "") {
         alert("Please enter a valid name!");
         secondPlayerName();
-        alert("First player to 7 points wins the game! Loser buy drinks!")
-    } return player2;
+    }
+    alert("First player to 7 points wins the game! Loser buy drinks!");
+    return player2;
 }
 
 var player1Points = 0;
@@ -49,7 +50,8 @@ var rollDice = () => {
     }
     else {
         document.querySelector(".container h1").textContent = `DRAW!`;
-    } setScore();
+    }
+    setScore();
 }
 
 var setScore = () => {
